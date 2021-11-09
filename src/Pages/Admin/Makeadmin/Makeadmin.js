@@ -10,29 +10,19 @@ const Makeadmin = () => {
   };
 
   const handelsubmit = (e) => {
-    const roll = "ADMIN";
-
-    // fetch(`http://localhost:7000/admin/roll?email=${email}`, {
-    //   method: "PUT",
-    //   headers: {
-    //     authorization: `Bearer ${localStorage.getItem("token")}`,
-    //   },
-    //   body: JSON.stringify(roll),
-    // })
-    //   .then((res) => res.json())
-    //   .then((data) => {
-    //     if (data.modifiedCount > 0) {
-    //       alert("Add admin !");
-    //     }
-    //   });
-
-    fetch(`http://localhost:7000/admin/roll?email=${email}`, {
-      method: "PUT",
-      headers: {
-        authorization: `Bearer ${localStorage.getItem("token")}`,
-      },
-      body: JSON.stringify(roll),
-    });
+    // const roll = { "ADMIN" };
+    fetch(
+      `https://secret-journey-43006.herokuapp.com/admin/roll?email=${email}&roll=${roll}`,
+      {
+        method: "PUT",
+        headers: {
+          authorization: `Bearer ${localStorage.getItem("token")}`,
+        },
+        // body: JSON.stringify(roll),
+      }
+    )
+      .then((res) => res.json())
+      .then((data) => console.log(data));
 
     e.preventDefault();
   };

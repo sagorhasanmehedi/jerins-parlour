@@ -17,7 +17,7 @@ const Services = () => {
   // get services from database
   useEffect(() => {
     axios
-      .get("http://localhost:7000/services")
+      .get("https://secret-journey-43006.herokuapp.com/services")
       .then((data) => setservices(data.data));
   }, []);
 

@@ -10,7 +10,9 @@ const Book = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:7000/order?email=${user.email}`)
+      .get(
+        `https://secret-journey-43006.herokuapp.com/order?email=${user.email}`
+      )
       .then((data) => setdata(data.data));
   }, [user.email]);
   return (

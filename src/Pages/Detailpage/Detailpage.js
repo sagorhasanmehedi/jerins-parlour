@@ -14,7 +14,7 @@ const Detailpage = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:7000/singaleservice/${id}`)
+      .get(`https://secret-journey-43006.herokuapp.com/singaleservice/${id}`)
       .then((data) => setservises(data.data));
   }, [id]);
 
@@ -27,11 +27,13 @@ const Detailpage = () => {
       email: user.email,
     };
 
-    axios.post("http://localhost:7000/products", { data }).then((data) => {
-      if (data.data.insertedId) {
-        window.confirm("Order pleace");
-      }
-    });
+    axios
+      .post("https://secret-journey-43006.herokuapp.com/products", { data })
+      .then((data) => {
+        if (data.data.insertedId) {
+          window.confirm("Order pleace");
+        }
+      });
 
     e.preventDefault();
   };

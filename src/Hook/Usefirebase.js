@@ -102,7 +102,7 @@ const Usefirebase = () => {
   // save user data on database
   const saveuserdata = (name, email, method) => {
     const data = { name, email };
-    fetch("http://localhost:7000/user", {
+    fetch("https://secret-journey-43006.herokuapp.com/user", {
       method: method,
       headers: {
         "content-type": "application/json",
@@ -117,7 +117,9 @@ const Usefirebase = () => {
   useEffect(() => {
     if (user.email) {
       axios
-        .get(`http://localhost:7000/admin/isadmin?email=${user.email}`)
+        .get(
+          `https://secret-journey-43006.herokuapp.com/admin/isadmin?email=${user.email}`
+        )
         .then((data) => setisadmin(data.data));
     }
   }, [user.email]);
@@ -141,13 +143,13 @@ export default Usefirebase;
 
 // const chaking = (name, email) => {
 //   const data = { name: name, email };
-//   // fetch("http://localhost:7000/user", {
+//   // fetch("https://secret-journey-43006.herokuapp.com/user", {
 //   //   method: "POST",
 //   //   "content-type": "application/json",
 //   //   body: JSON.stringify(data),
 //   // });
 //   axios
-//     .POST("http://localhost:7000/user", { data })
+//     .POST("https://secret-journey-43006.herokuapp.com/user", { data })
 //     .then((data) => console.log(data));
 
 //   console.log(name, email);

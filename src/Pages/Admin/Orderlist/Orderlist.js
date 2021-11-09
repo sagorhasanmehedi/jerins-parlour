@@ -18,7 +18,7 @@ const Orderlist = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:7000/adminorder")
+      .get("https://secret-journey-43006.herokuapp.com/adminorder")
       .then((data) => setorder(data.data));
   }, []);
 
