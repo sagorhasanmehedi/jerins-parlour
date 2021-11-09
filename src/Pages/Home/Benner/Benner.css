@@ -1,0 +1,14 @@
+.benner-img {
+  width: 85%;
+}
+.benner-parent {
+  background-color: #fff8f5;
+}
+.benner-button {
+  background-color: #f63e7b;
+  color: white;
+  padding: 17px 33px;
+  font-size: 17px;
+  border: none;
+  border-radius: 3px;
+}

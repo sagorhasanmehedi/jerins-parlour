@@ -1,0 +1,13 @@
+.nevigation-logo {
+  width: 127.45px;
+
+  height: 48px;
+}
+.red-button {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(216, 51, 133);
+  color: white;
+  margin-left: 40px;
+}

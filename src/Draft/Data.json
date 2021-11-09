@@ -1,0 +1,44 @@
+[
+
+    
+    
+
+
+    {
+      "name": "facials and skin treatments.",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem blanditiis ipsa",
+      "img": "https://i.ibb.co/SRZWLpZ/Group-1372.png",
+      "price": "200"
+    },
+    {
+
+      "name": "hair-cutting and styling.",
+      "img": "https://i.ibb.co/tQH1cTy/Group-1374.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem blanditiis ipsa",
+      "price": "231"
+    },
+    {
+      "name": " Moisturizing Facials",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem blanditiis ipsa",
+      "img": "https://i.ibb.co/tQH1cTy/Group-1374.png",
+      "price": "783"
+    },
+    {
+      "name": "Skin Care Treatment",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem blanditiis ipsa",
+      "img": "https://i.ibb.co/dtGMBwz/Group-1373.png",
+      "price": "222"
+    },
+    {
+      "name": "Hair Color & Styleing",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem blanditiis ipsa",
+      "img": "https://i.ibb.co/tQH1cTy/Group-1374.png",
+      "price": "130"
+    },
+    {
+      "name": "Anti Age Face Treatment",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem blanditiis ipsa",
+      "img": "https://i.ibb.co/SRZWLpZ/Group-1372.png",
+      "price": "210"
+    }
+  ]

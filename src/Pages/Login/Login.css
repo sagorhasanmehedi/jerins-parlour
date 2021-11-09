@@ -1,0 +1,11 @@
+.google-icon {
+  width: 10%;
+}
+.coocle-button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px 0 5px 90px;
+  background: none;
+  border: 1px solid rgb(2, 7, 41);
+  font-size: 15px;
+}
